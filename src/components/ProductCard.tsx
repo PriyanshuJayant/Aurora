@@ -1,5 +1,6 @@
 import { Star, ShoppingCart, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 interface Product {
   id: string;
@@ -34,10 +35,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
         
         {/* Overlay Actions */}
         <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-2">
-          <Button variant="neon" size="sm">
-            <Eye className="w-4 h-4 mr-1" />
-            Quick View
-          </Button>
+          <Link to={`/product/${product.id}`}>
+            <Button variant="neon" size="sm">
+              <Eye className="w-4 h-4 mr-1" />
+              Quick View
+            </Button>
+          </Link>
           <Button variant="cyber" size="sm">
             <ShoppingCart className="w-4 h-4 mr-1" />
             Add to Cart
@@ -67,9 +70,11 @@ const ProductCard = ({ product }: ProductCardProps) => {
         </span>
 
         {/* Product Name */}
-        <h3 className="font-heading font-semibold text-foreground group-hover:text-gradient-cyber transition-all duration-300 line-clamp-2">
-          {product.name}
-        </h3>
+        <Link to={`/product/${product.id}`}>
+          <h3 className="font-heading font-semibold text-foreground group-hover:text-gradient-cyber transition-all duration-300 line-clamp-2 cursor-pointer">
+            {product.name}
+          </h3>
+        </Link>
 
         {/* Rating */}
         <div className="flex items-center space-x-2">
