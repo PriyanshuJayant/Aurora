@@ -2,6 +2,7 @@ import ProductCard from './ProductCard';
 import { Button } from '@/components/ui/button';
 import { ChevronRight, ArrowRight } from 'lucide-react';
 import gamingLaptopImage from '@/assets/gaming-laptop.jpg';
+import accessories from '@/assets/acce.webp';
 import gamingPcImage from '@/assets/gaming-pc.jpg';
 import gamingConsoleImage from '@/assets/gaming-console.jpg';
 
@@ -10,8 +11,8 @@ const FeaturedProducts = () => {
     {
       id: '1',
       name: 'ROG Strix G17 Gaming Laptop',
-      price: 1899,
-      originalPrice: 2299,
+      price: 89000,
+      originalPrice: 99000,
       rating: 4.8,
       reviews: 324,
       image: gamingLaptopImage,
@@ -21,8 +22,8 @@ const FeaturedProducts = () => {
     {
       id: '2', 
       name: 'Alienware Aurora R15 Gaming PC',
-      price: 2599,
-      originalPrice: 2999,
+      price: 99000,
+      originalPrice: 129000,
       rating: 4.9,
       reviews: 156,
       image: gamingPcImage,
@@ -32,7 +33,8 @@ const FeaturedProducts = () => {
     {
       id: '3',
       name: 'PlayStation 5 Digital Edition',
-      price: 499,
+      price: 44999,
+      originalPrice: 59900,
       rating: 4.7,
       reviews: 892,
       image: gamingConsoleImage,
@@ -40,12 +42,12 @@ const FeaturedProducts = () => {
     },
     {
       id: '4',
-      name: 'MSI Katana 15 Gaming Laptop',
-      price: 1299,
-      originalPrice: 1599,
+      name: 'PC/Console Accessories',
+      price: 399,
+      originalPrice: 5599,
       rating: 4.6,
       reviews: 201,
-      image: gamingLaptopImage,
+      image: accessories,
       category: 'Gaming Laptops'
     }
   ];
