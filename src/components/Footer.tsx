@@ -154,7 +154,7 @@ const Footer = () => {
         <div className="py-6 border-t border-card-border">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
             <p className="text-sm text-foreground-secondary">
-              © 2024 Aurora. All rights reserved.
+              © 2025 Aurora. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="/privacy" className="text-foreground-secondary hover:text-primary transition-colors">
