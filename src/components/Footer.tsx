@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Gamepad2 className="h-8 w-8 text-primary" />
               <span className="text-xl font-heading font-bold text-gradient-cyber">
-                GAMER'S NEXUS
+                AURORA
               </span>
             </div>
             <p className="text-foreground-secondary mb-6 leading-relaxed">
@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-sm text-foreground-secondary">
                 <Mail className="w-4 h-4" />
-                <span>support@gamersnexus.com</span>
+                <span>support@aurora.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-foreground-secondary">
                 <MapPin className="w-4 h-4" />
@@ -154,7 +154,7 @@ const Footer = () => {
         <div className="py-6 border-t border-card-border">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
             <p className="text-sm text-foreground-secondary">
-              © 2024 Gamer's Nexus. All rights reserved.
+              © 2024 Aurora. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="/privacy" className="text-foreground-secondary hover:text-primary transition-colors">

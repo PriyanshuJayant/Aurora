@@ -19,9 +19,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Gamepad2 className="h-8 w-8 text-primary" />
+            <Gamepad2  className="h-8 w-8 text-primary" />
             <span className="text-xl font-heading font-bold text-gradient-cyber">
-              GAMER'S NEXUS
+              AURORA
             </span>
           </div>
 
